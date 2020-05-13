@@ -1,21 +1,56 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url('https://i.pinimg.com/originals/ea/3f/d3/ea3fd3102ccf575e3c33954f73eab78d.jpg');
+  background-image: url('../img/background.jpg');
   background-size: auto auto;
-  font-family: Arial;
-  height: 100vh;
+  font-size: 10px;
+}
+
+@media (min-width: 300px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+header {
 }
 
 .menu {
   background-color: black;
+  position: fixed;
+  top: 300px;
+  left: 10px;
 }
 
 .menu ul {
-  display: flex;
-  justify-content: space-around;
+  
 }
 
 .menu li {
-  list-style: none;
+  padding: 15px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  font-size: 1em;
 }
 
 a {
@@ -27,12 +62,27 @@ a:hover {
   text-decoration: underline; 
 }
 
+.title{
+  position: relative;
+  top: 15px;
+}
+
 .site-title,
-.site-subtitle {
+.site-subtitle{
   color: whitesmoke;
   text-align: center;
+  padding: 8  px;
+  font-size: 2em;
 }
 
 .site-subtitle {
 font-style: italic;
 }
+
+.bio {
+  position: relative;
+  top: 100px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1em;
+} 
