@@ -32,6 +32,8 @@ body {
 
 .menu {
   background-color: black;
+  position: fixed;
+  width: 100vw;
   opacity: 0.8;
 }
 
@@ -59,16 +61,15 @@ a:hover {
   text-decoration: underline;
 }
 
-.title {
-  padding: 50px;
+.title-box {
+  padding-top: 10em;
 }
 
 .site-title,
 .site-subtitle {
   color: whitesmoke;
   text-align: center;
-  padding: 8px;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .site-title {
@@ -79,6 +80,7 @@ a:hover {
   font-family: 'Baloo Bhaina 2', cursive;
 }
 
+.title,
 .about,
 .projects,
 .contact {
