@@ -14,7 +14,30 @@ body {
 
 @media (min-width: 300px) {
   body {
-    font-size: 14px;
+    font-size: 15px;
+  }
+  .title-box {
+    padding-top: 25em;
+    font-size: 0.45em;
+  }
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Comic Neue', cursive;
+  }
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .temp {
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 22em;
+    font-size: 1.8em;
+    font-family: 'Cutive Mono', cursive;
   }
 }
 
@@ -22,11 +45,115 @@ body {
   body {
     font-size: 18px;
   }
+  .title-box {
+    padding-top: 24em;
+    font-size: 0.45em;
+  }
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Comic Neue', cursive;
+  }
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .temp {
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 18em;
+    font-size: 1.8em;
+    font-family: 'Cutive Mono', cursive;
+  }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   body {
     font-size: 22px;
+  }
+  .title-box {
+    padding-top: 23em;
+    font-size: 0.45em;
+  }
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Comic Neue', cursive;
+  }
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .temp {
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 18em;
+    font-size: 1.8em;
+    font-family: 'Cutive Mono', cursive;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 22px;
+  }
+  .title-box {
+    padding-top: 23em;
+    font-size: 0.55em;
+  }
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Comic Neue', cursive;
+  }
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .temp {
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 16em;
+    font-size: 1.8em;
+    font-family: 'Cutive Mono', cursive;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 22px;
+  }
+  .title-box {
+    padding-top: 23em;
+    font-size: 0.60em;
+  }
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Comic Neue', cursive;
+  }
+  .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  .temp {
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 16em;
+    font-size: 1.8em;
+    font-family: 'Cutive Mono', cursive;
   }
 }
 
@@ -61,25 +188,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.title-box {
-  padding-top: 10em;
-}
-
-.site-title,
-.site-subtitle {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 2em;
-}
-
-.site-title {
-  font-family: 'Comic Neue', cursive;
-}
-
-.site-subtitle {
-  font-family: 'Baloo Bhaina 2', cursive;
-}
-
 .title,
 .about,
 .projects,
@@ -105,14 +213,17 @@ a:hover {
 }
 
 .about .img-office {
-  float: right;
-  padding-top: 0.3em;
-  padding-left: 1em;
+  text-align: center;
 }
 
-.about .img-office img {
-  border-radius: 1%;
-  opacity: 0.7;
+@media (min-width: 600px) {
+  .about .img-office img {
+    border-radius: 1%;
+    opacity: 0.7;
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0.07em;
+  }
 }
 
 .about p {
