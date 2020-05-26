@@ -10,7 +10,6 @@ body {
   height: 100vh;
   font-family: Arial;
   font-size: 10px;
-  opacity: 0.8;
 }
 
 @media (min-width: 300px) {
