@@ -1,4 +1,4 @@
-# Personal website
+# Portfolio
 This is my personal website about my professional life and skills
 
-https://dasilvaguilhermecesar.github.io/personal-website/
+https://dasilvaguicesar.github.io/portfolio/
